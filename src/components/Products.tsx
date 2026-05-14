@@ -30,18 +30,18 @@ export default function Products() {
   ];
 
   return (
-    <section id="products" className="py-24 bg-[#FDFBF7]">
+    <section id="products" className="py-24 bg-[#FDFBF7] dark:bg-bakery-dark-bg transition-colors">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
           <div className="max-w-2xl">
-            <h2 className="text-sm font-black uppercase tracking-widest text-bakery-primary mb-4">
+            <h2 className="text-sm font-black uppercase tracking-widest text-bakery-primary dark:text-bakery-orange mb-4">
               Unsere Spezialitäten
             </h2>
-            <h3 className="text-4xl md:text-5xl font-black text-bakery-brown">
+            <h3 className="text-4xl md:text-5xl font-black text-bakery-brown dark:text-bakery-dark-text">
               {t('products.title')}
             </h3>
           </div>
-          <div className="bg-bakery-orange/10 p-4 rounded-2xl text-xs italic border-l-4 border-bakery-orange font-bold text-bakery-brown">
+          <div className="bg-bakery-orange/10 dark:bg-bakery-orange/20 p-4 rounded-2xl text-xs italic border-l-4 border-bakery-orange font-bold text-bakery-brown dark:text-bakery-dark-text/90">
             {t('products.price_info')}
           </div>
         </div>
@@ -54,7 +54,7 @@ export default function Products() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: idx * 0.1 }}
               viewport={{ once: true }}
-              className="bg-white rounded-[2rem] overflow-hidden shadow-lg border border-bakery-border hover:shadow-2xl transition-all group"
+              className="bg-white dark:bg-bakery-dark-card rounded-[2rem] overflow-hidden shadow-lg border border-bakery-border dark:border-bakery-dark-border hover:shadow-2xl transition-all group"
             >
               <div className="aspect-video relative overflow-hidden">
                 <img
@@ -70,20 +70,20 @@ export default function Products() {
               </div>
               <div className="p-8 flex flex-col h-full">
                 <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-xl font-black text-bakery-brown">
+                  <h3 className="text-xl font-black text-bakery-brown dark:text-bakery-dark-text">
                     {product.title}
                   </h3>
-                  <div className="text-bakery-primary">
+                  <div className="text-bakery-primary dark:text-bakery-orange">
                     {product.icon}
                   </div>
                 </div>
-                <p className="text-bakery-brown/70 leading-relaxed font-medium mb-6">
+                <p className="text-bakery-brown/70 dark:text-bakery-dark-text/70 leading-relaxed font-medium mb-6">
                   {product.desc}
                 </p>
-                <div className="mt-auto pt-4 border-t border-bakery-border">
+                <div className="mt-auto pt-4 border-t border-bakery-border dark:border-bakery-dark-border">
                   <div className="flex justify-between items-center">
-                    <span className="text-xs font-black uppercase tracking-widest text-bakery-brown/40">Qualität</span>
-                    <span className="text-bakery-primary font-bold">11/10</span>
+                    <span className="text-xs font-black uppercase tracking-widest text-bakery-brown/40 dark:text-bakery-dark-text/30">Qualität</span>
+                    <span className="text-bakery-primary dark:text-bakery-orange font-bold">11/10</span>
                   </div>
                 </div>
               </div>

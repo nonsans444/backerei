@@ -12,11 +12,21 @@
   --color-bakery-border: #FFE8CC;
   --color-bakery-tag-bg: #FEF3C7;
   --color-bakery-tag-text: #92400E;
+
+  /* Dark mode variants */
+  --color-bakery-dark-bg: #1A1412;
+  --color-bakery-dark-card: #251D1A;
+  --color-bakery-dark-border: #3A2E2A;
+  --color-bakery-dark-text: #FDFBF7;
 }
 
 @layer base {
   body {
-    @apply bg-bakery-bg text-bakery-brown font-sans;
+    @apply bg-bakery-bg text-bakery-brown font-sans transition-colors duration-300;
+  }
+
+  .dark body {
+    @apply bg-bakery-dark-bg text-bakery-dark-text;
   }
 }
 

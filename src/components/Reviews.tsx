@@ -19,11 +19,11 @@ export default function Reviews() {
   ];
 
   return (
-    <section id="reviews" className="py-24 bg-bakery-bg">
+    <section id="reviews" className="py-24 bg-bakery-bg dark:bg-bakery-dark-bg transition-colors">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-sm font-black uppercase tracking-widest text-bakery-primary mb-4">Kundenstimmen (4.6 ★)</h2>
-          <h3 className="text-4xl md:text-5xl font-black text-bakery-brown italic">
+          <h2 className="text-sm font-black uppercase tracking-widest text-bakery-primary dark:text-bakery-orange mb-4">Kundenstimmen (4.6 ★)</h2>
+          <h3 className="text-4xl md:text-5xl font-black text-bakery-brown dark:text-bakery-dark-text italic">
             "{t('reviews.title')}"
           </h3>
         </div>
@@ -36,7 +36,7 @@ export default function Reviews() {
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ delay: idx * 0.2 }}
               viewport={{ once: true }}
-              className="bg-white p-8 rounded-3xl shadow-lg border border-bakery-border relative flex flex-col"
+              className="bg-white dark:bg-bakery-dark-card p-8 rounded-3xl shadow-lg border border-bakery-border dark:border-bakery-dark-border relative flex flex-col"
             >
               <div className="flex justify-between items-center mb-6">
                 <div className="flex gap-1 text-bakery-orange">
@@ -47,15 +47,15 @@ export default function Reviews() {
                 <Quote className="w-8 h-8 text-bakery-orange/20" />
               </div>
               <div className="relative z-10 mb-8">
-                <p className="text-lg md:text-xl font-bold italic text-bakery-brown leading-relaxed">
+                <p className="text-lg md:text-xl font-bold italic text-bakery-brown dark:text-bakery-dark-text leading-relaxed">
                   {review.text}
                 </p>
               </div>
               <div className="mt-auto flex items-center space-x-4">
-                <div className="w-10 h-10 rounded-full bg-bakery-primary text-white flex items-center justify-center font-black">
+                <div className="w-10 h-10 rounded-full bg-bakery-primary dark:bg-bakery-orange text-white flex items-center justify-center font-black">
                   {review.author[0]}
                 </div>
-                <span className="font-bold text-bakery-brown">
+                <span className="font-bold text-bakery-brown dark:text-bakery-dark-text">
                   {review.author}
                 </span>
               </div>

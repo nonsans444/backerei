@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über Uns",
+    "products": "Produkte",
+    "reviews": "Bewertungen",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Frisches balkanisches Gebäck – Tradition, die man schmeckt!",
+    "subtitle": "Besuchen Sie uns in der Austraße für täglich frische Spezialitäten.",
+    "cta_call": "Jetzt Anrufen",
+    "cta_route": "Route berechnen"
+  },
+  "about": {
+    "title": "Warum Balkan Bäckerei Dora?",
+    "text": "Mit einer Bewertung von 4,6 Sternen sind wir stolz darauf, unseren Kunden nur das Beste zu bieten. Von herzhaftem Burek bis hin zu süßen Köstlichkeiten – alles wird mit Liebe zubereitet.",
+    "highlight": "Barrierefreier Zugang vorhanden."
+  },
+  "products": {
+    "title": "Unsere Spezialitäten",
+    "burek": {
+      "name": "Burek",
+      "desc": "Frisch und knusprig, wie von Kunden mit '11/10' bewertet."
+    },
+    "bread": {
+      "name": "Traditionelles Brot & Brötchen",
+      "desc": "Täglich frisch aus dem Ofen."
+    },
+    "sweets": {
+      "name": "Süßwaren",
+      "desc": "Eine große Auswahl in unserer Vitrine direkt vor Ort."
+    },
+    "price_info": "Erschwinglicher Genuss zwischen 1 € und 10 € pro Person."
+  },
+  "reviews": {
+    "title": "Kundenstimmen",
+    "olga": {
+      "text": "\"Vom ersten Moment an haben wir uns hier willkommen gefühlt! Alles war köstlich...\""
+    },
+    "franc": {
+      "text": "\"Ein ehrliches 11/10, es ist erstaunlich. Wir kamen morgens an, alles war frisch und lecker...\""
+    }
+  },
+  "contact": {
+    "title": "Kontakt & Öffnungszeiten",
+    "address_label": "Adresse",
+    "address_value": "Austraße (Ecke Rothenburger Straße), Deutschland",
+    "hours_label": "Öffnungszeiten",
+    "hours_value": "Täglich ab 05:00 Uhr morgens für Sie geöffnet."
+  },
+  "footer": {
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "social": "Folgen Sie uns auf Google Maps für Updates"
+  }
+}

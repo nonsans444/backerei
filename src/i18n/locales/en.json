@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "reviews": "Reviews",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Fresh Balkan Pastries – Tradition You Can Taste!",
+    "subtitle": "Visit us in Austraße for daily fresh specialties.",
+    "cta_call": "Call Now",
+    "cta_route": "Calculate Route"
+  },
+  "about": {
+    "title": "Why Balkan Bakery Dora?",
+    "text": "With a 4.6-star rating, we are proud to offer our customers only the best. From savory Burek to sweet treats – everything is prepared with love.",
+    "highlight": "Wheelchair accessible."
+  },
+  "products": {
+    "title": "Our Specialties",
+    "burek": {
+      "name": "Burek",
+      "desc": "Fresh and crispy, rated '11/10' by customers."
+    },
+    "bread": {
+      "name": "Traditional Bread & Rolls",
+      "desc": "Daily fresh from the oven."
+    },
+    "sweets": {
+      "name": "Sweets",
+      "desc": "A wide selection in our showcase on site."
+    },
+    "price_info": "Affordable indulgence between €1 and €10 per person."
+  },
+  "reviews": {
+    "title": "Customer Reviews",
+    "olga": {
+      "text": "\"From the first moment, we felt welcome here! Everything was delicious...\""
+    },
+    "franc": {
+      "text": "\"An honest 11/10, it's amazing. We arrived in the morning, everything was fresh and delicious...\""
+    }
+  },
+  "contact": {
+    "title": "Contact & Opening Hours",
+    "address_label": "Address",
+    "address_value": "Austraße (Corner of Rothenburger Straße), Germany",
+    "hours_label": "Opening Hours",
+    "hours_value": "Open daily from 05:00 AM."
+  },
+  "footer": {
+    "imprint": "Imprint",
+    "privacy": "Privacy Policy",
+    "social": "Follow us on Google Maps for updates"
+  }
+}

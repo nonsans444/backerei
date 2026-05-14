@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-bakery-bg: #FFFBF2;
+  --color-bakery-primary: #9D422B;
+  --color-bakery-brown: #4A2C2A;
+  --color-bakery-orange: #FF8C42;
+  --color-bakery-yellow: #F9C74F;
+  --color-bakery-border: #FFE8CC;
+  --color-bakery-tag-bg: #FEF3C7;
+  --color-bakery-tag-text: #92400E;
+}
+
+@layer base {
+  body {
+    @apply bg-bakery-bg text-bakery-brown font-sans;
+  }
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, var(--color-bakery-orange) 0%, var(--color-bakery-yellow) 100%);
+}
+
